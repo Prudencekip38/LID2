@@ -15,8 +15,10 @@ def preprocess(text):
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
-st.title("Language Identifier")
-st.write("NLP Project by: 110062733")
+st.title("Kenyan Language Identifier")
+st.write("A Language Identification System for Kenyan Languages using Machine Learning")
+st.write("NLP Project by: Prudence Kiprop")
+
 
 text = st.text_area("Enter your text here:")
 
