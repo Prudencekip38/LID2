@@ -20,8 +20,10 @@ st.write("A Language Identification System for Kenyan Languages using Machine Le
 st.write("NLP Project by: Prudence Kiprop")
 
 
-text = st.text_area("Enter your text here:")
-
+text = st.text_area(
+    "Enter your text here:",
+    placeholder="Type in Kiswahili, Luo, Kikuyu, Sheng' or any other language..."
+)
 if st.button("Detect Language"):
     if text.strip():
         cleaned = preprocess(text)
