@@ -22,12 +22,12 @@ This app can detect the language of any short text written in English, Kiswahili
 
 ## How to Put the App Online (Free)
 
-1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with your GitHub account
+1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with your GitHub account, choose the Community version
 2. Click **"New app"**
 3. Choose this repository from the list
 4. Set the main file as `app.py`
 5. Click **"Deploy"**
-6. Wait a few minutes — you'll get a link you can share with anyone!
+6. Wait a few minutes, you'll get a link you can share with anyone!
 
 ---
 
